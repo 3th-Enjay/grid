@@ -1,3 +1,13 @@
+@font-face{
+ font-family: montserrat;
+ src: url(https://fonts.google.com/specimen/Montserrat);
+}
+@font-face{
+ font-family: montserrat;
+ src: url(https://fonts.google.com/specimen/Fraunces);
+}
+
+
 body {
  background-color: hsl(30, 38%, 92%);
 }
