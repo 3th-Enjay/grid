@@ -1,0 +1,79 @@
+body {
+ background-color: hsl(30, 38%, 92%);
+}
+.one{
+ display:flex;
+ width:50%;
+ padding:50px;
+}
+ 
+.two , .three{
+ display:table-cell;
+ vertical-align:middle;
+}
+.two{
+ height:100%;
+ }
+  
+
+.two img{
+max-width: 50%;
+height: auto;
+}
+.three{
+ background-color: white;
+ width:50%;
+ padding:10px;
+ margin-left:-45%;
+}
+h3{
+font-weight: 100;
+font-size:13px;
+font-family: fraunces;
+color:hsl(228, 12%,48%);
+text-transform: uppercase;
+letter-spacing: 5px;
+
+}
+h2{
+ margin-top: 10px;
+ margin-bottom: 10px;
+font-family: montserrat;
+inline-size: 10px;
+font-size:x-large;
+}
+p{
+ font-family: fraunces;
+ font-size:medium;
+ inline-size: 180px;
+ overflow-wrap: break-word;
+ color:hsl(228, 12%,48%);
+ font-weight: 250;
+ text-align: left;
+ margin-bottom: 5px;
+}
+.newprice{
+ font-family: fantasy;
+ margin-left:20px;
+ color:hsl(158,30%,37%);
+ font-weight: 200;
+ font-size:25px;
+}
+.oldprice{
+ text-decoration: line-through;
+ color:hsl(158, 11%, 29%);
+ font-size:15px;
+ margin-top: -12%;
+ margin-left:33%;
+}
+button{
+ border-radius: 10px;
+ border:0px;
+ font-size:xx-large ;
+ font-family: fantasy;
+ inline-size:250px ;
+ color:white;
+ margin-left: 15px;
+ margin-top: 5%;
+ background-color:rgb(111, 222, 131)
+}
